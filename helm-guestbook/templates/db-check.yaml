@@ -3,7 +3,7 @@ kind: Job
 metadata:
   name: db-check-job
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "20"
 spec:
   backoffLimit: 2
   template:
